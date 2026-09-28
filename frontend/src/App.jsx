@@ -1,9 +1,13 @@
-import React from 'react'
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div class="text-3xl font-bold underline">Har Har Mahadev</div>
-  )
-}
+    <div className="min-h-screen bg-slate-950 text-white">
+      <Navbar />
 
-export default App
+      <main></main>
+    </div>
+  );
+};
+
+export default App;
